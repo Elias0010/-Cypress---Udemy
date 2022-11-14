@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "pruebas-Chrome": "cypress run  cypress/e2e/Test E2E FreeRangerTester/E2E-FreeRangerTester.cy.js -b chrome",
-    "chrome - test": "cypress run  cypress/e2e/Test - Herokuapp/Test-Herokuapp.cy.js -b chrome"
+    "cy:run:edge": "cypress run   -b edge" ,
+    "cy:run:chrome": "cypress run  -b chrome"
   },
   "author": "Elias Geronimo",
   "license": "ISC",

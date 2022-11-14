@@ -30,6 +30,7 @@ jobs:
         uses: cypress-io/github-action@v4
         with:
           browser: chrome
+          browser: edge
           spec: cypress\e2e
 
       
