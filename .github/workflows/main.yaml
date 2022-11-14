@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup npm package
-        run: npm init -y && npm intall 
+        run: npm init -y && npm install 
 
       # Runs cypress with spec
       - name: Cypress run
