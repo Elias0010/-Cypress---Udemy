@@ -1,0 +1,35 @@
+name: CI - FreRangeTester 
+
+# Name of the Workflow
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch for now
+  push:
+    branches: [ "master" ]
+  
+
+  
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  
+  cypress-run:
+    name: Cypress run
+    runs-on: windows-latest
+
+    # Steps 
+    steps:
+      # Checks-out your repository and install npm package
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup npm package
+        run: npm init -y && npm intall 
+
+      # Runs cypress with spec
+      - name: Cypress run
+        uses: cypress-io/github-action@v4
+        with:
+          browser: chrome
+          spec: cypress\e2e\**
+
+      
