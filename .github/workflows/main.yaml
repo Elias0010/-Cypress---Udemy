@@ -20,7 +20,7 @@ jobs:
 
     # Steps 
     steps:
-      # Checks-out your repository and install npm package
+    # Checks-out your repository and install npm package
       - name: Checkout
         uses: actions/checkout@v3
 
