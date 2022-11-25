@@ -6,7 +6,7 @@ on:
   push:
     branches: [ "allure-test" ]
 jobs:
-  cypress-run:
+cypress-run:
     runs-on: ubuntu-latest
 
     # Steps 
