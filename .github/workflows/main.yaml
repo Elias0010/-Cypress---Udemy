@@ -5,16 +5,10 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch for now
   push:
     branches: [ "allure-test" ]
-    
-    
-
-  
-
-
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
-    
+
     # Steps 
       steps:
       - name: Checkout
