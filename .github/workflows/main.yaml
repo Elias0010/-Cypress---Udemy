@@ -4,13 +4,23 @@ name: CI - FreRangeTester
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch for now
   push:
-    branches: [ "allure-test" ]
-  jobs:
-      cypress-run:
-        runs-on: ubuntu-latest
+    branches: [ "range-test" ]
+    
+  
+    
+
+  
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  
+  cypress-run:
+    name: Cypress run
+    runs-on: windows-latest
 
     # Steps 
-      steps:
+    steps:
+      # Checks-out your repository and install npm package
       - name: Checkout
         uses: actions/checkout@v3
 
@@ -25,8 +35,6 @@ on:
       - name: Generate Allure Report
       if: always()
       run: npm run allure-report
-
-      
       - uses: actions/upload-artifact@v2
       if: always()
       with:
@@ -61,5 +69,3 @@ on:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: allure-report/
         keep_files: true    
-
-      
