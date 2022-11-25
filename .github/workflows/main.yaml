@@ -16,7 +16,3 @@ jobs:
         with:
           browser: chrome
           spec: cypress/e2e/Fixtures Tests/Fixture-test.cy.js
-      - name: Generate Allure Report
-      if: always()
-      run: npm run allure-report
-      
