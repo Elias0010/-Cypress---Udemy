@@ -25,7 +25,7 @@ it('Validar IMG Dinamicos', () => {
         .should('be.visible')
         
         
-        })*/
+        })*/ 
 
 })
 
