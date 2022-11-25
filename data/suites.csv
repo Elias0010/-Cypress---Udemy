@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Nov 25 17:27:13 GMT 2022","Fri Nov 25 17:27:14 GMT 2022","1015","","Test Suite","","","","Nueva Pestaña",""
+"passed","Fri Nov 25 17:14:43 GMT 2022","Fri Nov 25 17:14:43 GMT 2022","113","","Ejemplos con fixture","","","","Validar el apartado Login",""
+"passed","Fri Nov 25 17:14:41 GMT 2022","Fri Nov 25 17:14:43 GMT 2022","1503","","Ejemplos con fixture","","","","Validate Successful Login",""
+"passed","Fri Nov 25 17:27:15 GMT 2022","Fri Nov 25 17:27:16 GMT 2022","1201","","Test Suite","","","","Validar que las Promesas se Resuelvan",""
+"passed","Fri Nov 25 17:27:14 GMT 2022","Fri Nov 25 17:27:15 GMT 2022","555","","Test Suite","","","","Validar Checkbox",""
+"passed","Fri Nov 25 17:27:14 GMT 2022","Fri Nov 25 17:27:14 GMT 2022","416","","Test Suite","","","","Validar IMG Dinamicos",""
+"passed","Fri Nov 25 17:27:15 GMT 2022","Fri Nov 25 17:27:15 GMT 2022","428","","Test Suite","","","","Validar Alerta en ContextMenu",""
