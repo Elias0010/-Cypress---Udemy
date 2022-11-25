@@ -2,4 +2,6 @@ Archivos para ignorar
 **/node_modules
 **/videos
 **/downloads
-
+**/allure-report
+**/allure-results
+allure*
