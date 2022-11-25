@@ -19,7 +19,7 @@ jobs:
     runs-on: windows-latest
 
     # Steps 
-steps:
+      steps:
       - name: Checkout
         uses: actions/checkout@v3
 
