@@ -17,5 +17,5 @@ jobs:
           browser: chrome
           spec: cypress/e2e/Fixtures Tests/Fixture-test.cy.js
 
-      run: npm run allure-report
-    - uses: actions/upload-artifact@v2
+    run: npm run allure-report
+  - uses: actions/upload-artifact@v2
